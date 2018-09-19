@@ -1,0 +1,19 @@
+sudo: required
+dist: trusty
+
+language: node_js
+node_js:
+  - "8"
+install:
+  - npm install -g claudia
+  - npm install -g mocha
+  - npm install
+
+deploy:
+  provider: script
+  script: claudia update >/dev/null 2>&1
+  on:
+    branch: master
+
+notifications:
+  email: false

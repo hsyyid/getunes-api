@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "music-finder-executor",
+    "name": "music-finder",
+    "region": "us-east-2"
+  },
+  "api": {
+    "id": "2kx14y75mf",
+    "module": "index"
+  }
+}
