@@ -467,7 +467,11 @@ const CreatePlaylist = async (identityId, name) => {
       'Authorization': `Bearer ${accessToken}`,
       'Accept': 'application/json'
     },
-    body: JSON.stringify({name, description: `A custom playlist made for ${display_name}`, "public": false})
+    body: JSON.stringify({
+      name,
+      description: `A custom playlist made for ${display_name || id}`,
+      public: false
+    })
   });
 
   let data = await response.json();
