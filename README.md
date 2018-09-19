@@ -1,4 +1,4 @@
-# getunes [![Build Status](https://travis-ci.org/Getunes/api.svg?branch=master)](https://travis-ci.org/Getunes/api)
+# getunes [![Build Status](https://travis-ci.org/Getunes/getunes-api.svg?branch=master)](https://travis-ci.org/Getunes/getunes-api)
 ([Frontend](https://github.com/getunes/getunes.github.io) | Backend)
 
 A [website](https://getunes.github.io) to help Spotify users find new music.
